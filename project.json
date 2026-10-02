@@ -1,0 +1,20 @@
+{
+  "id": 772,
+  "title": "Driver Fatigue Trainer Collision Warning",
+  "repository_slug": "driver-fatigue-trainer-collision-warning",
+  "category": "Smart Vehicles",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "connectivity": "LoRa",
+  "components": [
+    "vibration sensor",
+    "temperature sensor"
+  ],
+  "scope": "Build a smart vehicles prototype that uses vibration sensor, temperature sensor to warn about close obstacles. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Collision Warning demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/driver-fatigue-trainer-collision-warning/driver-fatigue-trainer-collision-warning.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
